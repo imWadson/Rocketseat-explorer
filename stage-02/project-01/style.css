@@ -2,11 +2,13 @@ body {
     font-family: "Open Sans", sans-serif; 
     text-align: center;
     margin: 0;
+    padding: 0;
 }
 
 #hero {
     width: 592px;
     margin: 0 auto 72px;
+    line-height: 56px;
 }
 
 #hero img {
@@ -21,7 +23,7 @@ h1 {
     margin-bottom: 32px;
 }
 
-h1 span {
+ span {
     font-weight: bold;
 }
 
@@ -49,7 +51,7 @@ p, #foot {
 
 
 #balls {
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 0;
 }

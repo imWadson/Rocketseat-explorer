@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: "Open Sans" ,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    width: 626px;
+    margin: 67px auto;
+}
+/* #hero img {
+    margin-left: -10px;
+} */
+
+h1 {
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    color: #3F3D56;
+    font-size: 32px;
+}
+
+h1 .destiny {
+    color: #EE24FF;
+    font-weight: bold;
+}
+
+
+p {
+    color: #828282;
+    font-size: 15px;
+}
+
+span {
+    font-weight: bold;
+    color: #3F3D56;
+}
+span + span {
+    margin-left: 41px;
+}
+
+h1,span, p {
+    width: 540px;
+}
+
+.float {
+    font-weight: bold;
+    color: #828282;
+}
+
+
+
+
+
+#footer {
+    margin: 0;
+}
+
+#footer .menu-footer {
+    text-align: center;
+}
+
+.line {
+    margin: 0 auto 21px;
+    width: 391px;
+    height: 0;
+    border: 1px solid #ECEFF2;
+}
+
+.img-bg img {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
